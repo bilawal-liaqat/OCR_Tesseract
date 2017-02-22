@@ -12,6 +12,13 @@
 		8F9E0DDF1E5D78A4002F4040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E0DDD1E5D78A4002F4040 /* Main.storyboard */; };
 		8F9E0DE11E5D78A4002F4040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E0DE01E5D78A4002F4040 /* Assets.xcassets */; };
 		8F9E0DE41E5D78A4002F4040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E0DE21E5D78A4002F4040 /* LaunchScreen.storyboard */; };
+		8F9E0DEC1E5D7A53002F4040 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9E0DEB1E5D7A53002F4040 /* libz.tbd */; };
+		8F9E0E181E5D7D1C002F4040 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9E0E171E5D7D1C002F4040 /* one.png */; };
+		8FA1E3AA1E5D7E95008EC548 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1E3A91E5D7E95008EC548 /* tessdata */; };
+		8FA1E3AC1E5D7F03008EC548 /* two.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1E3AB1E5D7F03008EC548 /* two.gif */; };
+		8FA1E3AE1E5D801C008EC548 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA1E3AD1E5D801C008EC548 /* libstdc++.tbd */; };
+		8FA1E3B01E5D8029008EC548 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA1E3AF1E5D8029008EC548 /* CoreImage.framework */; };
+		9ECA10DDB019477046FAD3FF /* Pods_ORCTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8E30D1B5FFA13D085B0EDF /* Pods_ORCTesting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,16 @@
 		8F9E0DE01E5D78A4002F4040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9E0DE31E5D78A4002F4040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9E0DE51E5D78A4002F4040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9E0DEB1E5D7A53002F4040 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8F9E0E131E5D7B64002F4040 /* ORCTesting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORCTesting-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F9E0E171E5D7D1C002F4040 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		8FA1E3A91E5D7E95008EC548 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		8FA1E3AB1E5D7F03008EC548 /* two.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = two.gif; sourceTree = "<group>"; };
+		8FA1E3AD1E5D801C008EC548 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8FA1E3AF1E5D8029008EC548 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B38E6A2EEC576E72A2D953A6 /* Pods-ORCTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORCTesting/Pods-ORCTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8E30D1B5FFA13D085B0EDF /* Pods_ORCTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35802E2CC55955D29928CF4 /* Pods-ORCTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORCTesting/Pods-ORCTesting.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA1E3B01E5D8029008EC548 /* CoreImage.framework in Frameworks */,
+				8FA1E3AE1E5D801C008EC548 /* libstdc++.tbd in Frameworks */,
+				8F9E0DEC1E5D7A53002F4040 /* libz.tbd in Frameworks */,
+				9ECA10DDB019477046FAD3FF /* Pods_ORCTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A21168F34DC0D988AE366D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38E6A2EEC576E72A2D953A6 /* Pods-ORCTesting.debug.xcconfig */,
+				F35802E2CC55955D29928CF4 /* Pods-ORCTesting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		601F97F3C23D23246E9CEF84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA1E3AF1E5D8029008EC548 /* CoreImage.framework */,
+				8FA1E3AD1E5D801C008EC548 /* libstdc++.tbd */,
+				8F9E0DEB1E5D7A53002F4040 /* libz.tbd */,
+				BE8E30D1B5FFA13D085B0EDF /* Pods_ORCTesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F9E0DCD1E5D78A4002F4040 = {
 			isa = PBXGroup;
 			children = (
 				8F9E0DD81E5D78A4002F4040 /* ORCTesting */,
 				8F9E0DD71E5D78A4002F4040 /* Products */,
+				05A21168F34DC0D988AE366D /* Pods */,
+				601F97F3C23D23246E9CEF84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +97,16 @@
 		8F9E0DD81E5D78A4002F4040 /* ORCTesting */ = {
 			isa = PBXGroup;
 			children = (
+				8FA1E3A91E5D7E95008EC548 /* tessdata */,
+				8F9E0E171E5D7D1C002F4040 /* one.png */,
+				8FA1E3AB1E5D7F03008EC548 /* two.gif */,
 				8F9E0DD91E5D78A4002F4040 /* AppDelegate.swift */,
 				8F9E0DDB1E5D78A4002F4040 /* ViewController.swift */,
 				8F9E0DDD1E5D78A4002F4040 /* Main.storyboard */,
 				8F9E0DE01E5D78A4002F4040 /* Assets.xcassets */,
 				8F9E0DE21E5D78A4002F4040 /* LaunchScreen.storyboard */,
 				8F9E0DE51E5D78A4002F4040 /* Info.plist */,
+				8F9E0E131E5D7B64002F4040 /* ORCTesting-Bridging-Header.h */,
 			);
 			path = ORCTesting;
 			sourceTree = "<group>";
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9E0DE81E5D78A4002F4040 /* Build configuration list for PBXNativeTarget "ORCTesting" */;
 			buildPhases = (
+				3875339618B82B0043F9AFF3 /* [CP] Check Pods Manifest.lock */,
 				8F9E0DD21E5D78A4002F4040 /* Sources */,
 				8F9E0DD31E5D78A4002F4040 /* Frameworks */,
 				8F9E0DD41E5D78A4002F4040 /* Resources */,
+				EA4D2A2D3A5441092B063316 /* [CP] Embed Pods Frameworks */,
+				6B827C4052E3E75792864380 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +147,7 @@
 					8F9E0DD51E5D78A4002F4040 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 553NH4N55S;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,13 +175,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9E0E181E5D7D1C002F4040 /* one.png in Resources */,
 				8F9E0DE41E5D78A4002F4040 /* LaunchScreen.storyboard in Resources */,
+				8FA1E3AA1E5D7E95008EC548 /* tessdata in Resources */,
+				8FA1E3AC1E5D7F03008EC548 /* two.gif in Resources */,
 				8F9E0DE11E5D78A4002F4040 /* Assets.xcassets in Resources */,
 				8F9E0DDF1E5D78A4002F4040 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3875339618B82B0043F9AFF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B827C4052E3E75792864380 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCTesting/Pods-ORCTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4D2A2D3A5441092B063316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ORCTesting/Pods-ORCTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F9E0DD21E5D78A4002F4040 /* Sources */ = {
@@ -257,26 +359,33 @@
 		};
 		8F9E0DE91E5D78A4002F4040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38E6A2EEC576E72A2D953A6 /* Pods-ORCTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 553NH4N55S;
 				INFOPLIST_FILE = ORCTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxb.ORCTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ORCTesting/ORCTesting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		8F9E0DEA1E5D78A4002F4040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35802E2CC55955D29928CF4 /* Pods-ORCTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 553NH4N55S;
 				INFOPLIST_FILE = ORCTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxb.ORCTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ORCTesting/ORCTesting-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +409,7 @@
 				8F9E0DEA1E5D78A4002F4040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

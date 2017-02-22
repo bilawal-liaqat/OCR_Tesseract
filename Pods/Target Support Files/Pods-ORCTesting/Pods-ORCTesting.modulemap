@@ -1,0 +1,6 @@
+framework module Pods_ORCTesting {
+  umbrella header "Pods-ORCTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}
